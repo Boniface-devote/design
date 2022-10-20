@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>school website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+           
+            
+            <div class="nav-links" id="navLinks">
+                <img src="cancel.png" onclick="hideMenu()">
+                
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">PORTFOLIO</a></li>
+                    <li><a href="Activities.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img class="home" src="profile-home.png" onclick="showMenu()">
+            <a href="index.html"><img src="logo.png" alt=""></a>
+        </nav>
+        <div class="text-box">
+            <div class="h1">
+                <h2><strong>DES</strong><br><strong>IGING</strong></h2>
+            </div>
+            <div class="year">
+                
+                <h2><span class="since">Since</span> 2020</h2>
+                <div class="left">
+                <p class="desc-text"> I am an ambitious designer  with a drive
+                    to excel in what I do.
+                    I have got interpersonal, graphic design,
+                    administrative and communication skills, coupled
+                    with the ability to create and maintain partnership.                    
+                    I am a highly creative, result oriented
+                    and self-driven, team player with excellent skills in leadership,
+                    organization and innovation,
+                    with the ability to quickly adapt to  changing environment                    
+                    and excellent project management skills
+                    while meeting deadlines in a pressurized environment.</p>
+                </div>
+               
+            </div>
+            <div class="right">
+                <h3>Order Now</h3>
+                
+                <h3>Order Now</h3>
+                    <h3>Order Now</h3>
+                    <p> I am an ambitious designer  with a drive
+                        to excel in what I do.
+                        I have got interpersonal, graphic design,
+                   </p>
+            </div>
+        </div>
+        
+    </section>
+
+ <!-------------footer--------
+ <section class="footer">
+    <h4>About us</h4>
+    <p>
+       for more information please follow us on the follwing platforms 
+        </p>
+        <div class="icons">
+            <a href=""><img src="facebook.png"></a>
+            <a href=""><img src="instagram.png"></a>
+            <a href=""><img src="twitter.png"></a>
+            <a href=""><img src="linkedin.png"></a>
+        </div>
+        <p>&copy;2015-2022</p>
+        <p>MADE BY DB & KR GROUP</p>
+        <span>+256779899463</span>
+        <span>+256740298240</span>
+ </section>
+--->
+
+    <!----toggle for the media query-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+        
+
+    </script>
+</body>
+</html>
