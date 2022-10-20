@@ -1,11 +1,11 @@
 @font-face {
     font-family: mont;
-    src: url("fonts/Mont-HeavyDEMO.otf");
+    src: url("Mont-HeavyDEMO.otf");
 }
 
 @font-face{
     font-family: mont-light;
-    src: url("fonts/Mont-ExtraLightDEMO.otf");
+    src: url("Mont-ExtraLightDEMO.otf");
 }
 
 *{
